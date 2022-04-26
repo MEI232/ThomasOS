@@ -1,3 +1,6 @@
+<?php
+require 'js/https://unpkg.com/sweetalert/dist/sweetalert.min.js';
+?>
 window.addEventListener("beforeunload", function (e) {
     var confirmationMessage = 'MEI232 os does not save your changes'
                             + 'If you leave before saving, your changes will be lost.';
