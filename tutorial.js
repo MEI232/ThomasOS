@@ -1,6 +1,7 @@
 function tutorial(){
   if(confirm('Would you like to do the tutorial?')){
-    startTutorial()
+    alert('Sorry, the tutorial does not work on the github edition');
+    //startTutorial()
   }
 }
 function startTutorial(){
